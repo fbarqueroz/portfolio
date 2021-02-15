@@ -1,0 +1,39 @@
+//estilos del header global
+.header{
+
+  background-color: #1282A2 ;
+  height: 111px ;
+}
+
+.header-list{
+
+  float: left ;
+  margin-left: 457px ;
+  margin-top: 42px ;
+}
+
+.header-list-nav {
+
+  li{
+
+    float: left ;
+    list-style: none ;
+
+    a{
+      color: #ffffff ;
+      font-size: 14px;
+      text-decoration: none ;
+    }
+  }
+  li+li{
+
+    margin-left: 128px ;
+  }
+}
+
+.header-logo{
+
+  float: left ;
+  margin-top: 18px ;
+  width: 277px ;
+}

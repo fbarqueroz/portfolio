@@ -1,0 +1,28 @@
+/*styles sheet sass*/
+body {
+  background-color: #0A1128; }
+
+.header {
+  background-color: #1282A2;
+  height: 111px; }
+
+.header-list {
+  float: left;
+  margin-left: 457px;
+  margin-top: 42px; }
+
+.header-list-nav li {
+  float: left;
+  list-style: none; }
+  .header-list-nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none; }
+
+.header-list-nav li + li {
+  margin-left: 128px; }
+
+.header-logo {
+  float: left;
+  margin-top: 18px;
+  width: 277px; }
