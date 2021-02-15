@@ -9,6 +9,7 @@ https://darwinmontoya.com/?fbclid=IwAR1uub5mV4Mh6cZDVF9PzujO9U9nKUr4P7dteZXoTnPr
 https://carlosc.tech/?fbclid=IwAR1IHPFKSA7JBdrhVAbpbx3Al83Xti-XWNNDb4dH-u6kV0XHkHWY5ag4XiQ
 https://portafolio-fernando.netlify.app/?fbclid=IwAR12uRsQp2WWUDikt9yu0zLIX4qKzgj5mwftArlmXTm0YnZuuibp2zbjOFc
 https://www.xplora.eu/elaborar-briefing-proyecto-web/#quien_eres_presentate_en_el_briefing_web
+https://freefrontend.com/css-headers-footers/
 
 
 Wireframe: https://www.figma.com/file/SOtTCCIQqAA1ybLYJladjr/Untitled?node-id=0%3A1
