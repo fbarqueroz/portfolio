@@ -2,14 +2,16 @@
 .header{
 
   background-color: #1282A2 ;
-  height: 111px ;
+  height: 64px ;
+  margin: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 }
 
 .header-list{
 
-  float: left ;
-  margin-left: 457px ;
-  margin-top: 42px ;
+  float: right ;
+  padding-right: 40px;
+
 }
 
 .header-list-nav {
@@ -27,13 +29,14 @@
   }
   li+li{
 
-    margin-left: 128px ;
+    margin-left: 70px ;
   }
 }
 
-.header-logo{
+.header-logo img{
 
   float: left ;
-  margin-top: 18px ;
-  width: 277px ;
+  width: 78px;
+  height: 70px;
+  margin-left: 70px;
 }
