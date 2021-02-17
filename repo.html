@@ -15,12 +15,12 @@
     <div class="header clearfix">
       <div class="wrapper">
         <!--title del header-->
-        <div class="header-logo clearfix">
+        <div class="header-logo">
           <img src="img/logo-01.png" alt="Logo">
         </div>
         <!--lista del headder-->
         <div class="header-list">
-          <ul class="header-list-nav clearfix">
+          <ul class="header-list-nav">
             <li><a href="/index.html">Inicio</a></li>
             <li><a href="/proyectos.html">Proyectos</a></li>
             <li><a href="/repo.html">Repositorios</a></li>
@@ -32,15 +32,24 @@
 
     <!--Main-->
 
-    <!--Footer-->
+    <div class="main-repo">
+      <div class="main-repo-info">
+        <h2>Actividad en GitHub</h2>
+        <p>
+          Los siguientes repositorios están basados en trabajos <br>
+          y proyectos realizados en clase.
+        </p>
+      </div>
+    </div>
 
-  <div class="footer">
+  <!--Footer-->
+
+  <div class="footer clearfix">
 
     <!--Information-->
 
-    <div class="foo_info">
+    <div class="foo-info">
       <h3>Fabián Barquero</h3>
-      <br>
       <p>
         San José, Costa Rica
       </p>
@@ -52,42 +61,37 @@
 
     <!--Form-->
 
-    <div class="foo_form">
-    <h3>Contacto</h3>
-    <form action="">
-      <div class="line">
-        <label for="">Nombre *</label>
-        <input type="text" name="nombre" class="requerido" />
-      </div>
+    <div class="foo-form">
+      <h4>Contacto</h4>
+      <form action="">
+        <div class="line">
+          <input type="text" name="nombre" placeholder="Nombre" class="requerido" />
+        </div>
 
-      <div class="line">
-        <label for="">Apellido *</label>
-        <input type="text" name="apellido" class="requerido" />
-      </div>
+        <div class="line">
+          <input type="text" name="apellido" placeholder="Apellido" class="requerido" />
+        </div>
 
-      <div class="line">
-        <label for="">Email *</label>
-        <input type="email" name="email" class="requerido" />
-      </div>
+        <div class="line">
+          <input type="email" name="email" placeholder="Email" class="requerido" />
+        </div>
 
-      <div class="line">
-        <label for="">Telefono</label>
-        <input type="phone" />
-      </div>
-      <button>
-        Enviar
-      </button>
-    </form>
+        <div class="line">
+          <input type="phone" placeholder="Telefono"/>
+        </div>
+        <button>
+          Enviar
+        </button>
+      </form>
     </div>
 
     <!--Social Media-->
 
-    <div class="soc_media">
+    <div class="soc-media">
       <ul>
         <li><a href="https://github.com/fbarqueroz" target="_blank"><img src="img/github-01.png" alt="Github"></a></li>
       </ul>
     </div>
-
   </div>
 
     <script src="js/script.js"></script>

@@ -1,13 +1,28 @@
 /* eslint-disable quotes */
 /* eslint-disable linebreak-style */
 
-function agregarMensajeDeExito() {
-  const validoElemnt = document.createElement("div");
-  validoElemnt.classList.add("mensaje-valido");
+function agregarMensajeDeError(camposInvalidos) {
+  const errorElemnt = document.createElement("div");
+  errorElemnt.classList.add("mensaje-error");
 
-  validoElemnt.innerText = "Su formulario fue enviado";
+  // AQUI VAMOS A ESCRIBIR EL MENSAJE DE ERROR
+  const mensajeInvalidoTitulo = document.createElement("h2");
+  mensajeInvalidoTitulo.innerText =
+    "Ocurrio un error, verifica los siguientes campos:";
 
-  document.body.appendChild(validoElemnt);
+  const listaInvalidoInput = document.createElement("ul");
+
+  camposInvalidos.forEach((elementInvalido) => {
+    const li = document.createElement("li");
+    li.innerText = elementInvalido.getAttribute("name");
+
+    listaInvalidoInput.appendChild(li);
+  });
+
+  errorElemnt.appendChild(mensajeInvalidoTitulo);
+  errorElemnt.appendChild(listaInvalidoInput);
+
+  form.parentNode.insertBefore(errorElemnt, form);
 }
 
 function dameLosCamposInvalidos(inputsRequeridos) {

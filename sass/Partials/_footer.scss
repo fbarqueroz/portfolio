@@ -21,6 +21,7 @@
   display: inline-block ;
   font-size: 18px ;
   font-weight: bold ;
+  margin-left: 40px ;
   padding-top: 56px ;
   width: 290px ;
 
@@ -40,15 +41,32 @@
   input {
 
     background-color: #ffffff ;
-    border-radius: 5px ;
-    width: 446px ;
-    height: 42px ;
     border: 1px solid #ffffff;
+    border-radius: 5px ;
+    height: 42px ;
     margin-bottom: 36px ;
+    width: 446px ;
+  }
+
+  button {
+
+    background-color: #0A1128 ;
+    border: none ;
+    border-radius: 12px ;
+    color: #ffffff ;
+    font-weight: bold ;
+    padding: 13px 25px 13px 25px ;
+
   }
 }
 
 .soc-media {
 
   margin-top: 200px ;
+}
+
+.mensaje-error {
+  h2 {
+    font-size: 18px ;
+  }
 }
