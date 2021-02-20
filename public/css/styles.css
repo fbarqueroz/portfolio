@@ -328,16 +328,16 @@ template {
   margin-left: 1050px;
   margin-top: 120px; }
   .main-name-img img {
-    width: 488px;
+    border-radius: 20px;
     height: 488px;
-    border-radius: 20px; }
+    width: 488px; }
 
 .main-name-descr {
-  text-align: center;
-  margin: 0 auto;
   font-size: 24px;
+  margin: 0 auto;
   margin-top: 195px;
-  margin-bottom: 215px; }
+  margin-bottom: 215px;
+  text-align: center; }
 
 .main-pro-info {
   color: #000000;
@@ -353,12 +353,12 @@ template {
     color: #ffffff; }
 
 .pro-img {
-  text-align: center;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: center; }
   .pro-img img {
+    border-radius: 20px;
     height: 488px;
-    width: 1000px;
-    border-radius: 20px; }
+    width: 1000px; }
   .pro-img p {
     color: #000000;
     font-size: 48px;
@@ -389,10 +389,10 @@ template {
 
 .header-logo img {
   float: left;
-  width: 78px;
   height: 70px;
+  margin: 0;
   padding-left: 70px;
-  margin: 0; }
+  width: 78px; }
 
 .footer {
   background-color: #034078;

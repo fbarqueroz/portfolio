@@ -1,7 +1,9 @@
 .main {
+
   color: #000000 ;
 
   body.dark & {
+
     color: #ffffff ;
   }
 }
@@ -41,17 +43,18 @@
   margin-top: 120px ;
 
   img {
-    width: 488px ;
-    height: 488px ;
+
     border-radius: 20px ;
+    height: 488px ;
+    width: 488px ;
   }
 }
 
 .main-name-descr {
 
-  text-align: center ;
-  margin: 0 auto;
   font-size: 24px ;
+  margin: 0 auto;
   margin-top: 195px ;
   margin-bottom: 215px ;
+  text-align: center ;
 }

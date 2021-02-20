@@ -2,17 +2,17 @@
 .footer {
 
   background-color: $blue ;
-  color: #ffffff;
+  color: #ffffff ;
 
   a {
 
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff ;
+    text-decoration: none ;
   }
 
   li {
 
-    list-style: none;
+    list-style: none ;
   }
 
   body.dark & {
@@ -37,9 +37,9 @@
 
 .foo-form {
 
-  float: right;
-  margin-right: 48px;
-  padding-bottom: 100px;
+  float: right ;
+  margin-right: 48px ;
+  padding-bottom: 100px ;
 
 
   input {
