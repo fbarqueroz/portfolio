@@ -10,6 +10,7 @@ https://carlosc.tech/?fbclid=IwAR1IHPFKSA7JBdrhVAbpbx3Al83Xti-XWNNDb4dH-u6kV0XHk
 https://portafolio-fernando.netlify.app/?fbclid=IwAR12uRsQp2WWUDikt9yu0zLIX4qKzgj5mwftArlmXTm0YnZuuibp2zbjOFc
 https://www.xplora.eu/elaborar-briefing-proyecto-web/#quien_eres_presentate_en_el_briefing_web
 https://freefrontend.com/css-headers-footers/
+https://www.youtube.com/watch?v=2Nmi1sXu12U&t=1150s
 
 
 Wireframe: https://www.figma.com/file/SOtTCCIQqAA1ybLYJladjr/Untitled?node-id=0%3A1

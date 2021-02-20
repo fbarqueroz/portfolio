@@ -1,13 +1,17 @@
 /*styles sheet sass*/
 
-// Partials
-
-@import 'Partials/partial_index';
-@import 'Partials/partial_proyecto';
-@import 'Partials/header';
-@import 'Partials/footer';
-@import 'Partials/healpers';
-@import 'Partials/partial_repo';
 // Library
 
-@import 'Library/normalize';
+@import 'Library/normalize' ;
+@import 'settings/variables' ;
+
+// Partials
+
+@import 'Partials/partial_index' ;
+@import 'Partials/partial_proyecto' ;
+@import 'Partials/header' ;
+@import 'Partials/footer' ;
+@import 'Partials/healpers' ;
+@import 'Partials/partial_repo' ;
+@import 'Partials/switch.scss' ;
+@import 'Partials/global' ;

@@ -66,3 +66,11 @@ form.addEventListener("submit", function (e) {
     agregarMensajeDeExito();
   }
 });
+
+// Script del switch para el dark mode
+
+const buttonSwitch = document.querySelector('#switch');
+buttonSwitch.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  buttonSwitch.classList.toggle('active');
+});

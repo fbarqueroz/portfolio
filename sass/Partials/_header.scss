@@ -1,8 +1,12 @@
 //estilos del header global
 .header{
 
-  background-color: #1282A2 ;
+  background-color: $blue ;
   height: 64px ;
+
+  body.dark & {
+    background-color: $med-blue ;
+  }
 }
 
 .header-list{

@@ -1,7 +1,7 @@
 
 .footer {
 
-  background-color: #1282A2;
+  background-color: $blue ;
   color: #ffffff;
 
   a {
@@ -13,6 +13,10 @@
   li {
 
     list-style: none;
+  }
+
+  body.dark & {
+    background-color: $med-blue ;
   }
 }
 
@@ -50,13 +54,20 @@
 
   button {
 
-    background-color: #0A1128 ;
+    background-color: $med-blue ;
     border: none ;
     border-radius: 12px ;
     color: #ffffff ;
     font-weight: bold ;
     padding: 13px 25px 13px 25px ;
 
+    body.dark & {
+      background-color: $blue ;
+    }
+  }
+
+  h4 {
+    font-size: 36px ;
   }
 }
 

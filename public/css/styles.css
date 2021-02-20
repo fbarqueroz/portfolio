@@ -1,133 +1,4 @@
 /*styles sheet sass*/
-body {
-  background-color: #0A1128;
-  font-family: 'Raleway', sans-serif; }
-
-.main {
-  color: #ffffff; }
-
-.main-name-title {
-  float: left;
-  margin-left: 110px;
-  margin-top: 50px; }
-  .main-name-title h2 {
-    font-size: 64px;
-    font-weight: bold; }
-  .main-name-title p {
-    font-size: 24px;
-    text-align: center; }
-
-.main-name-img {
-  margin-left: 1050px;
-  margin-top: 120px; }
-  .main-name-img img {
-    width: 488px;
-    height: 488px;
-    border-radius: 20px; }
-
-.main-name-descr {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 24px;
-  margin-top: 195px;
-  margin-bottom: 215px; }
-
-.main-pro-info {
-  color: #ffffff;
-  text-align: center; }
-  .main-pro-info h2 {
-    font-size: 64px;
-    margin-top: 175px;
-    margin-bottom: 100px; }
-  .main-pro-info p {
-    font-size: 24px;
-    margin-bottom: 255px; }
-
-.header {
-  background-color: #1282A2;
-  height: 64px; }
-
-.header-list {
-  float: right;
-  padding-right: 40px; }
-
-.header-list-nav li {
-  float: left;
-  list-style: none; }
-  .header-list-nav li a {
-    color: #ffffff;
-    font-size: 14px;
-    text-decoration: none; }
-
-.header-list-nav li + li {
-  margin-left: 70px; }
-
-.header-logo img {
-  float: left;
-  width: 78px;
-  height: 70px;
-  padding-left: 70px;
-  margin: 0; }
-
-.footer {
-  background-color: #1282A2;
-  color: #ffffff; }
-  .footer a {
-    color: #ffffff;
-    text-decoration: none; }
-  .footer li {
-    list-style: none; }
-
-.foo-info {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: 40px;
-  padding-top: 56px;
-  width: 290px; }
-  .foo-info h3 {
-    font-size: 36px; }
-
-.foo-form {
-  float: right;
-  margin-right: 48px;
-  padding-bottom: 100px; }
-  .foo-form input {
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    height: 42px;
-    margin-bottom: 36px;
-    width: 446px; }
-  .foo-form button {
-    background-color: #0A1128;
-    border: none;
-    border-radius: 12px;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 13px 25px 13px 25px; }
-
-.soc-media {
-  margin-top: 200px; }
-
-.mensaje-error h2 {
-  font-size: 18px; }
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table; }
-
-.main-repo-info {
-  color: #ffffff;
-  margin-top: 180px;
-  margin-bottom: 185px;
-  text-align: center; }
-  .main-repo-info h2 {
-    font-size: 64px; }
-  .main-repo-info p {
-    font-size: 24px; }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -432,3 +303,196 @@ template {
  */
 [hidden] {
   display: none; }
+
+.main {
+  color: #000000; }
+  body.dark .main {
+    color: #ffffff; }
+
+.main-name-title {
+  float: left;
+  margin-left: 110px;
+  margin-top: 50px; }
+  .main-name-title h2 {
+    font-size: 64px;
+    font-weight: bold; }
+  .main-name-title p {
+    font-size: 24px;
+    text-align: center; }
+  .main-name-title hr {
+    border: 2px solid #000000; }
+    body.dark .main-name-title hr {
+      border: 2px solid #ffffff; }
+
+.main-name-img {
+  margin-left: 1050px;
+  margin-top: 120px; }
+  .main-name-img img {
+    width: 488px;
+    height: 488px;
+    border-radius: 20px; }
+
+.main-name-descr {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-top: 195px;
+  margin-bottom: 215px; }
+
+.main-pro-info {
+  color: #000000;
+  text-align: center; }
+  .main-pro-info h2 {
+    font-size: 64px;
+    margin-top: 175px;
+    margin-bottom: 100px; }
+  .main-pro-info p {
+    font-size: 24px;
+    margin-bottom: 255px; }
+  body.dark .main-pro-info {
+    color: #ffffff; }
+
+.pro-img p {
+  color: #000000;
+  font-size: 48px;
+  margin-left: 50px; }
+  body.dark .pro-img p {
+    color: #ffffff; }
+
+.header {
+  background-color: #034078;
+  height: 64px; }
+  body.dark .header {
+    background-color: #1282A2; }
+
+.header-list {
+  float: right;
+  padding-right: 40px; }
+
+.header-list-nav li {
+  float: left;
+  list-style: none; }
+  .header-list-nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none; }
+
+.header-list-nav li + li {
+  margin-left: 70px; }
+
+.header-logo img {
+  float: left;
+  width: 78px;
+  height: 70px;
+  padding-left: 70px;
+  margin: 0; }
+
+.footer {
+  background-color: #034078;
+  color: #ffffff; }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none; }
+  .footer li {
+    list-style: none; }
+  body.dark .footer {
+    background-color: #1282A2; }
+
+.foo-info {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 40px;
+  padding-top: 56px;
+  width: 290px; }
+  .foo-info h3 {
+    font-size: 36px; }
+
+.foo-form {
+  float: right;
+  margin-right: 48px;
+  padding-bottom: 100px; }
+  .foo-form input {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 42px;
+    margin-bottom: 36px;
+    width: 446px; }
+  .foo-form button {
+    background-color: #1282A2;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 13px 25px 13px 25px; }
+    body.dark .foo-form button {
+      background-color: #034078; }
+  .foo-form h4 {
+    font-size: 36px; }
+
+.soc-media {
+  margin-top: 200px; }
+
+.mensaje-error h2 {
+  font-size: 18px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.main-repo-info {
+  color: #000000;
+  margin-top: 180px;
+  margin-bottom: 185px;
+  text-align: center; }
+  .main-repo-info h2 {
+    font-size: 64px; }
+  .main-repo-info p {
+    font-size: 24px; }
+  body.dark .main-repo-info {
+    color: #ffffff; }
+
+.switch {
+  background: #343D5B;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  display: flex;
+  float: right;
+  margin-right: 80px;
+  margin-top: 30px;
+  outline: none;
+  position: relative; }
+  .switch::after {
+    background: #f1f1f1;
+    border-radius: 100px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    right: unset;
+    top: 0;
+    transition: .3s ease all;
+    width: 30px; }
+  .switch.active {
+    background: orange; }
+    .switch.active::after {
+      left: unset;
+      right: 0; }
+  .switch span {
+    color: #ffffff;
+    background: none;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    width: 30px; }
+
+body {
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif; }
+  body.dark {
+    background-color: #0A1128; }
