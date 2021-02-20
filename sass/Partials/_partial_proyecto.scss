@@ -14,7 +14,7 @@
   p {
 
     font-size: 24px ;
-    margin-bottom: 255px ;
+    margin-bottom: 155px ;
   }
 
   body.dark & {
@@ -24,6 +24,16 @@
 }
 
 .pro-img {
+
+  text-align: center ;
+  margin-bottom: 50px ;
+
+  img {
+
+    height: 488px ;
+    width: 1000px ;
+    border-radius: 20px ;
+  }
 
   p {
 

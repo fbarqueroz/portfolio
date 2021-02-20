@@ -348,16 +348,23 @@ template {
     margin-bottom: 100px; }
   .main-pro-info p {
     font-size: 24px;
-    margin-bottom: 255px; }
+    margin-bottom: 155px; }
   body.dark .main-pro-info {
     color: #ffffff; }
 
-.pro-img p {
-  color: #000000;
-  font-size: 48px;
-  margin-left: 50px; }
-  body.dark .pro-img p {
-    color: #ffffff; }
+.pro-img {
+  text-align: center;
+  margin-bottom: 50px; }
+  .pro-img img {
+    height: 488px;
+    width: 1000px;
+    border-radius: 20px; }
+  .pro-img p {
+    color: #000000;
+    font-size: 48px;
+    margin-left: 50px; }
+    body.dark .pro-img p {
+      color: #ffffff; }
 
 .header {
   background-color: #034078;
@@ -496,3 +503,11 @@ body {
   font-family: 'Raleway', sans-serif; }
   body.dark {
     background-color: #0A1128; }
+
+@media (max-width: 777px) {
+  body {
+    background-color: lightpink; } }
+
+@media (max-width: 1023px) {
+  body {
+    background-color: lightgreen; } }
