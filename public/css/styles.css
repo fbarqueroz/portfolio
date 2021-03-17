@@ -504,6 +504,9 @@ body {
   body.dark {
     background-color: #0A1128; }
 
+.wrapper {
+  width: 1920px; }
+
 @media (max-width: 727px) {
   body {
     background-color: lightpink; } }
