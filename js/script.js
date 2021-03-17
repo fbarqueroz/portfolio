@@ -1,4 +1,9 @@
+/* eslint-disable prefer-arrow-callback */
+/* eslint-disable no-undef */
 /* eslint-disable quotes */
+
+// Validacion del form
+
 function agregarMensajeDeError(camposInvalidos) {
   const errorElemnt = document.createElement("div");
   errorElemnt.classList.add("mensaje-error");
@@ -51,7 +56,7 @@ function reiniciarMensajesDeError() {
 
 const form = document.querySelector("form");
 
-form.addEventListener("submit", function(e) {
+form.addEventListener("submit", function (e) {
   reiniciarMensajesDeError();
   const inputsRequeridos = document.querySelectorAll(".requerido");
   e.preventDefault();
@@ -115,34 +120,18 @@ API information
 
 // Fetch Github API
 
-const url = "https://api.github.com/users/fbarqueroz/repos";
-const divRepo = document.querySelector('.fetchContent');
-
-const actualizarDatos = () => {
-  fetch(url, {
-    method: "GET",
-  })
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-
-      return response.json();
-    })
-    .then((data) => {
-      const repoList = document.createElement("li");
-      repoList.appendChild(divRepo);
-
-      const repoContent = `
-      <div class="APIcontent">
-      <h2><a href="${data.url}">${data.name}</a></h2>
-      </div>
+const URL = 'https://api.github.com/users/fbarqueroz/repos';
+fetch(URL)
+  .then((response) => response.json())
+  .then((data) => {
+    const fetchContent = document.getElementById('fetchContent');
+    for (let i = 0; i < data.lenght; i += 1) {
+      const fetchList = document.createElement('li');
+      fetchContent.appendChild(fetchList);
+      const APIcontent = `
+        <a href="${data[i].html_url}"><h2>${data[i].title}</h2></a>
       `;
-
-      divRepo.appendChild(repoContent);
-      repoContent.innerHTML = "";
-      console.log(data.name);
-    });
-};
-
-actualizarDatos.innerHTML = "";
+      APIcontent.innerText = data[i].name;
+      fetchList.appendChild(APIcontent);
+    }
+  });
