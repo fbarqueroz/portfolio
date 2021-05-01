@@ -124,14 +124,15 @@ const URL = 'https://api.github.com/users/fbarqueroz/repos';
 fetch(URL)
   .then((response) => response.json())
   .then((data) => {
-    const fetchContent = document.getElementById('fetchContent');
-    for (let i = 0; i < data.lenght; i += 1) {
-      const fetchList = document.createElement('li');
-      fetchContent.appendChild(fetchList);
-      const APIcontent = `
-        <a href="${data[i].html_url}"><h2>${data[i].title}</h2></a>
-      `;
-      APIcontent.innerText = data[i].name;
-      fetchList.appendChild(APIcontent);
+    const infoContent = document.querySelector('.fetchContent ul');
+
+    for (let i = 0; i < data.length; i += 1) {
+      const listItem = document.createElement('li');
+      infoContent.appendChild(listItem);
+
+      const repositoryName = document.createElement('p');
+      repositoryName.innerHTML = data[i].name;
+
+      listItem.appendChild(repositoryName);
     }
   });
